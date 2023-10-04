@@ -1,0 +1,101 @@
+@import url("/assets/font/CeraPro/stylesheet.css");
+
+.tm-header{
+    margin-top: -47px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+.tm-header-mobile {
+    margin-top: -47px;
+}
+
+.lang-toggle_desktop {
+    position: absolute;
+    right: 42%;
+    bottom: 23%;
+    z-index: 9999999;
+}
+
+.lang-toggle_mobile {
+    position: absolute;
+    right: 14%;
+    bottom: 24%;
+    z-index: 9999999;
+    padding: 0;
+}
+
+.lang-toggle_mobile .header__btn{
+    padding: 0;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    height: 153px;
+    background-image: linear-gradient(135deg,#b791f8,#8f8cf7)!important;
+}
+
+.uk-flex-inline{
+    color: rgb(238,238,238)!important;
+}
+
+.uk-flex-inline:hover{
+    color:  rgba(255,255,255,.5)!important;
+}
+
+
+.uk-close {
+    color: #b2b2b2!important;
+}
+
+.uk-close:hover {
+    color: #4f5353!important;
+}
+
+.uk-navbar-toggle {
+    color: rgba(255,255,255,.5)!important;
+}
+
+.uk-navbar-toggle:hover, .uk-navbar-toggle[aria-expanded=true] {
+    color: rgb(238,238,238)!important; 
+}
+
+
+.uk-light .uk-navbar-toggle {
+    color: rgba(255,255,255,.5)!important;
+}
+
+.uk-button-primary {
+    background: rgba(255,255,255,.9)!important;
+    color: #495b4e!important;
+}
+
+.uk-button-primary:hover {
+    background: rgb(238,238,238)!important;
+    color: #3e4d42!important;
+}
+
+.uk-light .uk-button {
+    font-family: "Cera Pro" sans-serif!important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Cera Pro" sans-serif!important;
+}
+
+p {
+    font-family: "Cera Pro" sans-serif!important;
+}
+
+a {
+    font-family: "Cera Pro" sans-serif!important;
+}
+
+.uk-background-fixed {
+    background-image: url(/assets/img/7if2ex_kho_2oxzcxcl7gf1xhoxcz-ron1f7sfucp8s_plaintext_638162009822009536-1-5fe0b6c4.jpeg);
+}
+
+.uk-background-norepeat {
+    background-image: url(/assets/img/img-20230404-wa0061-c2774ab4.jpeg);
+}
