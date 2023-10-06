@@ -1,15 +1,13 @@
 @import url("/assets/font/CeraPro/stylesheet.css");
 
-.tm-header{
-    
-}
 
 ::-webkit-scrollbar {
     width: 0;
   }
 
-.tm-header-mobile {
-    
+
+.uk-margin video{
+    height: 477px!important;
 }
 
 .lang-toggle_desktop {
@@ -21,7 +19,7 @@
 
 .lang-toggle_mobile {
     position: absolute;
-    right: 14%;
+    right: 12%;
     bottom: 34%;
     z-index: 9999999;
     padding: 0;
