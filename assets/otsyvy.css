@@ -1,7 +1,7 @@
 @import url("/assets/font/CeraPro/stylesheet.css");
 
 .tm-header{
-    margin-top: -47px;
+    
 }
 
 ::-webkit-scrollbar {
@@ -9,20 +9,20 @@
   }
 
 .tm-header-mobile {
-    margin-top: -47px;
+    
 }
 
 .lang-toggle_desktop {
     position: absolute;
     right: 42%;
-    bottom: 23%;
+    bottom: 34%;
     z-index: 9999999;
 }
 
 .lang-toggle_mobile {
     position: absolute;
     right: 14%;
-    bottom: 24%;
+    bottom: 34%;
     z-index: 9999999;
     padding: 0;
 }
@@ -32,7 +32,6 @@
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    height: 153px;
     background-image: linear-gradient(135deg,#b791f8,#8f8cf7)!important;
 }
 

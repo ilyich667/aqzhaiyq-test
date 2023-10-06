@@ -12,7 +12,7 @@
 .lang-toggle_desktop {
     position: absolute;
     right: 42%;
-    bottom: -5%;
+    bottom: 36%;
     z-index: 9999999;
 }
 
@@ -45,9 +45,33 @@
 
 .lang-toggle_mobile {
     position: absolute;
-    right: 14%;
-    bottom: -7%;
+    right: 12%;
+    bottom: 36%;
     z-index: 9999999;
+}
+
+.index_footer-invalid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    gap: 30px;
+}
+
+.lang-toggle_span {
+    font-size: 11px;
+    margin-left: -1px;
+    color: rgb(238,238,238) ;
+}
+
+.lang-toggle_span-desktop {
+    font-size: 11px;
+    margin-left: -3px;
+    margin-right: -6px;
+    color: rgb(238,238,238) ;
 }
 
 .lang-toggle_mobile .header__btn{
@@ -60,7 +84,6 @@
     left: 0;
     right: 0;
     height: 110px;
-    top: -45px;
 }
 
 .uk-light .uk-button {
