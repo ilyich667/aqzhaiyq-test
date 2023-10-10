@@ -71,6 +71,34 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/93248778" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11366986856">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11366986856');
+</script>
+<!-- Event snippet for Тап по нажатию на номер телефона conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+        function gtag_report_conversion(url) {
+          var callback = function () {
+            if (typeof(url) != 'undefined') {
+              window.location = url;
+            }
+          };
+          gtag('event', 'conversion', {
+              'send_to': 'AW-11366986856/Ek2ACIzKuuoYEOjomawq',
+              'value': 3.0,
+              'currency': 'USD',
+              'event_callback': callback
+          });
+          return false;
+        }
+        </script>
     </head>
     <body class="page-template-default page page-id-310 ">
         
@@ -302,7 +330,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <div class="uk-section-primary uk-section uk-padding-remove-top uk-padding-remove-bottom" tm-header-transparent="light" uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-bottom-small; delay: 300;">
     
         
-        <a href="tel:+77751111177">
+        <a href="tel:+77751111177" onclick="return gtag_report_conversion('tel:+77751111177');">
                 <div class="pulse">
                         <i class="fa fa-phone"></i>
                 </div>
